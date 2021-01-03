@@ -11,7 +11,7 @@ struct ContentView: View {
     @State var name: String = ""
     
     var body: some View {
-        Form{
+        List{
             MovieRaw(MovieName: "Harry Potter and the Philosopher's Stone", MovieCharacters: ["Harry Potter", "Lord Voldemort", "Hermione Granger"])
             MovieRaw(MovieName: "Harry Potter and the Chamber of Secrets", MovieCharacters: ["Harry Potter", "Ron Weasley", "Sirius Black"])
             MovieRaw(MovieName: "Harry Potter and the Prisoner of Azkaban", MovieCharacters: ["Harry Potter", "Lord Voldemort", "Albus Dumbledore"])
